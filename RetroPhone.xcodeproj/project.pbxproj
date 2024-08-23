@@ -44,6 +44,7 @@
 		A2DCBBB92C74CD180092FF3C /* RetroPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DCBBBD2C74CD180092FF3C /* RetroPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPhoneUITests.swift; sourceTree = "<group>"; };
 		A2DCBBBF2C74CD180092FF3C /* RetroPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2DCBBD72C78B7760092FF3C /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignSystem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		A2DCBB962C74CD160092FF3C = {
 			isa = PBXGroup;
 			children = (
+				A2DCBBD62C78B6EB0092FF3C /* Packages */,
 				A2DCBBA12C74CD160092FF3C /* RetroPhone */,
 				A2DCBBB22C74CD180092FF3C /* RetroPhoneTests */,
 				A2DCBBBC2C74CD180092FF3C /* RetroPhoneUITests */,
@@ -125,6 +127,14 @@
 				A2DCBBBF2C74CD180092FF3C /* RetroPhoneUITestsLaunchTests.swift */,
 			);
 			path = RetroPhoneUITests;
+			sourceTree = "<group>";
+		};
+		A2DCBBD62C78B6EB0092FF3C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A2DCBBD72C78B7760092FF3C /* DesignSystem */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
